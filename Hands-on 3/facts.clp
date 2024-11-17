@@ -1,0 +1,11 @@
+(deffacts enfermedades
+    (enfermedad (nombre "Gripe") (tipo viral) (signos-sintomas (fiebre tos dolor-muscular congestion-nasal)))
+    (enfermedad (nombre "COVID-19") (tipo viral) (signos-sintomas (fiebre tos-seca dificultad-para-respirar fatiga perdida-del-olfato)))
+    (enfermedad (nombre "Tuberculosis") (tipo bacteriana) (signos-sintomas (tos-persistente perdida-de-peso fiebre-nocturna sudores-nocturnos)))
+    (enfermedad (nombre "Neumonía") (tipo mixta) (signos-sintomas (fiebre dificultad-para-respirar dolor-toracico escalofrios)))
+    (enfermedad (nombre "Varicela") (tipo viral) (signos-sintomas (fiebre sarpullido picazon ampollas)))
+    (enfermedad (nombre "Hepatitis A") (tipo viral) (signos-sintomas (ictericia fatiga dolor-abdominal nauseas)))
+    (enfermedad (nombre "Faringitis Estreptocócica") (tipo bacteriana) (signos-sintomas (dolor-de-garganta fiebre ganglios-inflamados)))
+    (enfermedad (nombre "Salmonelosis") (tipo bacteriana) (signos-sintomas (diarrea fiebre calambres-abdominales)))
+    (enfermedad (nombre "Dengue") (tipo viral) (signos-sintomas (fiebre-alta dolor-ojos dolor-muscular sarpullido)))
+    (enfermedad (nombre "Tétanos") (tipo bacteriana) (signos-sintomas (rigidez-muscular espasmos musculares dificultad-para-tragar))))
